@@ -46,7 +46,7 @@ def main():
             core.add_card(data, question, answer)
             storage.save_data(data)
             print("Card added.")
-        elif choice == "4":
+        elif choice == "12":
             category = input("Category: ").strip()
             matches = core.cards_by_category(core.get_cards(data), category)
             for card in matches:
