@@ -1,4 +1,4 @@
-# StudySprint
+# StudySprintP
 
 A small flashcard and quiz trainer you run in the terminal. Load a deck of
 cards from a JSON file, quiz yourself, and see your score at the end.
@@ -60,3 +60,4 @@ test covers it, and the docs reflect the change. Never commit straight to
 1. Read **[docs/README.md](docs/README.md)** and add yourself to the Team list.
 2. Pick a ticket from `tickets/` or the Issues tab.
 3. Branch, build, test, open the pull request.
+

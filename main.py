@@ -17,7 +17,7 @@ def show_menu():
     print("5) Show the last card")
     print("6) Category breakdown")
     print("7) Deck summary")
-    print("0) Quit")
+    print("10) Quit")
 
 
 def main():
@@ -63,3 +63,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+def cards_by_category(cards, category):
+    return [c for c in cards if c["category"] == category]
