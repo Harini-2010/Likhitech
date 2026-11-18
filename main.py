@@ -63,3 +63,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+def cards_by_category(cards, category):
+    return [c for c in cards if c["category"] == category]
